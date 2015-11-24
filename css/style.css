@@ -1,0 +1,86 @@
+html,body{margin:0;padding:0;background:#fff;width:100%;height:100%;font-family:Arial, Helvetica, sans-serif;}
+* html #wrap{height: 100%;}
+p,td{font-family:Arial, Helvetica, sans-serif; margin-top:0px;}
+
+a img{border:0;}
+a{color: #186096;text-decoration:underline;}
+a:hover{color: #107bcb;	text-decoration:none;}
+a.hidden{text-decoration: none;color:#000;cursor:default;}
+
+form{margin:0;padding:0;}
+div.clr{clear:both;}
+
+ul{margin:0 0 0 20px;padding:0;list-style-type: square;line-height: 16px;}
+
+h1{font-size:20px;font-weight:normal;color:#665247;margin:5px 0 10px; text-transform:uppercase;}
+h2{font-size:16px;font-weight:normal;color:#000;margin:2px 0 7px;}
+
+#wrap{overflow:hidden;}
+#pagewrap{width:902px;margin:0 auto;border:1px solid #cbd2d9;border-top:none;}
+#page{width:900px; padding:0px 1px 1px;}
+
+#header{position:relative; background:url(../images/header.jpg) no-repeat 0 59px; height:317px;}
+	ul#tmenu{list-style:none; font-size:11px; position:absolute; margin:32px 0 0 410px;}
+	ul#tmenu li{float:left; display:block; padding:0 20px; white-space:nowrap;}
+	ul#tmenu li a{text-decoration:underline; color:#000;}
+	ul#tmenu li a:hover{color:#186096;}
+	#logowrap{height:134px; width:290px; overflow:hidden;}
+	#logo{ position:absolute; margin:45px 0 0 40px;}
+	#company_name{font-size:23px;font-weight:normal;text-transform:none;color:#0b4371;position:absolute;margin:55px 0 0 110px;}
+
+#menu{padding:0;white-space: nowrap;}
+	#menu ul{list-style:none; font-size:14px; color:#000; margin:10px 0 0 20px; width:250px; background:url(../images/menubg.gif) repeat-y; padding:20px 0 5px;}
+	#menu ul li{padding:0 0 14px 50px; background:url(../images/bullet.gif) no-repeat 31px 3px;}
+	#menu a{text-decoration:underline;color:#000;}
+	#menu a:hover{color:#ad8325;text-decoration:underline;}
+	#menu .bottom{background:url(../images/menubottom.gif) no-repeat; height:10px; overflow:hidden; width:250px; margin-left:20px;}
+
+#contentwrap{float:right; width:610px; overflow:hidden;}
+	#body_area{color:#000;text-align: justify;padding:10px 20px 20px 0;vertical-align: top; font-size:12px;}
+	#sidebar{float:left; width:290px; background:url(../images/topleft_bg.jpg) no-repeat top;}
+	#login_form{height: 20px;width: 150px;font-size: 12px;}
+	#lblock{margin:10px 0 20px 20px; width:250px;}
+	#lblock h2{display:block; height:34px; width:250px; background:url(../images/lblock_h2bg.gif) no-repeat; text-align:center; line-height:34px; color:#74511e; font-size:16px;}
+	#lblock ul{font-size:12px; margin:10px 0 0 25px; padding:0; list-style:disc;}
+
+#footer{width:900px; background:#afb6c5 url(../images/footer_bg.gif) repeat-x top;}
+	#bottom_menu{color:#000;text-align:left;padding: 15px 20px 4px; font-size:12px;}
+	#bottom_menu a{color:#000;text-decoration:underline;}
+	#bottom_menu a:hover{color:#000;text-decoration:underline;}
+
+	#bottom_addr{color:#000;text-align:left;padding: 4px 20px 15px; font-size:11px;}
+	#bottom_addr a{text-decoration:underline;}
+	#bottom_addr a:hover{text-decoration: underline;}
+
+	/* contact */
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contact_form{margin:0 auto; position:relative}
+label{margin:3px 0px;}
+label.sp { width:3px;}
+span.error{color:red;text-align:left;}
+
+#message{ margin-left:0px;}
+#message h2	{}
+#message p{margin:6px 0px; }
+
+input.text-input{ margin:4px 8px 4px 0px; width: 280px; height:15px; padding:5px 2px; border:solid 1px #e4e4e4; vertical-align:middle}
+textarea.text-input{ margin:0px 8px 4px 0px; padding: 5px 2px; border:solid 1px #e4e4e4; vertical-align:top; width:380px;}
+#contact_form input:focus, #contact_form textarea:focus {border:solid 1px #e4e4e4; }
+input.text-input{width: 320px; margin:3px 0px 6px 0px}
+textarea.text-input{width: 320px; margin:0px}
+span.error{color:red;text-align:left;}
+input.button{background-color:#f6f6f6; background-image:url(../images/bg_readmore.gif); background-repeat:no-repeat; background-position:right; color:#333333 !important; padding:5px 10px 8px 13px; width:100px; text-align:left; height: 30px; display:block; margin-top:10px; border:0px;cursor:pointer;}
+
+/* input box in default state */ 
+.tcalInput {
+	background: url('img/cal.gif') 100% 50% no-repeat;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+/* additional properties for input boxe in activated state, above still applies unless in conflict */
+.tcalActive {
+	background-image: url('img/no_cal.gif');
+}
+
